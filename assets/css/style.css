@@ -4,12 +4,18 @@
 
 .bg-color-name-title {
     background-color: #676767;
+    
 }
 
 /* -----------------------------Heading---------------------------- */
 
 header {
     margin: 0;
+}
+
+
+.heading {
+    margin-left: 50px;
 }
 
 .logo {
@@ -25,3 +31,12 @@ header {
     margin-left: 3rem;
     margin-top: 1rem;
 }
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
