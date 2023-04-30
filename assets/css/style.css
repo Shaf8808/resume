@@ -4,32 +4,27 @@
 
 .bg-color-name-title {
     background-color: #676767;
-    
 }
 
-/* -----------------------------Heading---------------------------- */
+/*--------------------------------------------Heading*/
 
 header {
     margin: 0;
 }
-
 
 .heading {
     margin-left: 50px;
 }
 
 .logo {
-    background: url(../images/my-image.jpeg);
+    background: url("../images/my-image.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 260px;
-    max-width: 240px;
+    min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-    margin-left: 3rem;
-    margin-top: 1rem;
 }
 
 .name {
