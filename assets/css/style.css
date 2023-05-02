@@ -161,3 +161,7 @@ footer {
 .footer-icons i:hover {
     color: #e84610;
 }
+
+#footer-details {
+    padding: 20px;
+}
