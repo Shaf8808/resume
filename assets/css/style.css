@@ -146,3 +146,18 @@ footer {
     min-height: 120px;
     margin: 0;
 }
+
+.footer-icons i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;   
+}
+
+.footer-icons i:hover {
+    color: #e84610;
+}
