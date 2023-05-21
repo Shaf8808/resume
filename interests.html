@@ -91,9 +91,9 @@
                                 <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
                             </div>
                             <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">Django Girls</h4>
+                                <h4 class="three-reasons-heading uppercase">Django Boys</h4>
                                 <p>
-                                    Django Girls is a non-profit organization and a community that empowers and helps women to organize free, one-day programming workshops by providing tools, resources and support. We are a volunteer run organization with hundreds of people contributing
+                                    Django Boys is a non-profit organization and a community that empowers and helps women to organize free, one-day programming workshops by providing tools, resources and support. We are a volunteer run organization with hundreds of people contributing
                                     to bring more amazing women into the world of technology.
                                     <a href="https://djangogirls.org/" target="_blank">Django Girls</a>
                                 </p>
@@ -174,7 +174,15 @@
 
     </footer>
     <script>
-        
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 3,
+                center: {
+                    lat: 46.619261,
+                    lng: -33.134766
+                }
+            });
+        }
     </script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6NlEol1swI35QjXFURkfZmYewiMw03tA&callback=initMap"></script>
