@@ -37,7 +37,8 @@ function fetchGitHubInformation (event) {
         function(response) {
             var userData = response
             $("#gh-user-data").html(userInformationHTML (userData))
-        }, function(errorResponse) {
+        }, 
+        function(errorResponse) {
             if (errorResponse.status === 404) {
                 $("#gh-user-data").html(
                     `<h2>No info found for user ${username}</h2>`)
