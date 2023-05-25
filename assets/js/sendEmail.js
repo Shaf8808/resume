@@ -6,6 +6,7 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
+            $("#success-text").html("<p>Thank you for logging a Project Request. An email has been sent and a response will be issued shortly.</p>"),
             console.log("SUCCESS", response)
         },
         function(error) {
