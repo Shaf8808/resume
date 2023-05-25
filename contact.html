@@ -17,7 +17,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
       type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Shadman</title>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("R6LR2cDmOQc677l26");
+      })();
+    </script>
   </head>
   <body>
     <header>
@@ -87,7 +95,7 @@
           <h5 class="uppercase text-center">Let's work together</h5>
 
           <div class="center-form">
-            <form action="">
+            <form onsubmit="return sendMail(this)">
               <input
                 type="text"
                 name="name"
@@ -97,7 +105,7 @@
                 required />
               <input
                 type="email"
-                name="email"
+                name="emailaddress"
                 id="emailaddress"
                 class="form-control"
                 placeholder="Email"
@@ -158,5 +166,6 @@
         </div>
       </div>
     </footer>
+    <script src="assets/js/sendEmail.js"></script>
   </body>
 </html>
